@@ -1,0 +1,14 @@
+<h1>Bienvenue dans la page de création d'utilisateur</h1>
+
+
+<form action="<% users1_path %>" method="post">
+	<div class="form-group">
+		<label for="usr" class="space">User</label>
+		<input type="text" class="form-control taille" name="user" id="usr" placeholder="Entrer votre nom">
+		<label for="bio" class="space">Bio</label>
+		<textarea class="form-control taillebio" name="bio" rows="5" id="comment" placeholder="Entrer votre texte"></textarea>
+		<input type="hidden" name="authenticity_token" value="Di+krCW4dPmJp7V79mdufxnhoujNasH7X+eLfqF0KUeitgntfsIIRnvdftJ4iNyv3KyHvVzbYlhUjb6WSWKfwQ==">
+	</div>
+	<button type="submit" class="btn btn-primary">Envoyer</button>
+
+</form>
